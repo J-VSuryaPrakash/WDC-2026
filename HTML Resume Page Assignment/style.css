@@ -1,0 +1,61 @@
+header,
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  margin: auto;
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 1px;
+  padding: 4px;
+}
+
+p {
+  margin: 3px;
+  padding: 3px;
+}
+
+a {
+  margin: 3px;
+  padding: 3px;
+}
+
+section {
+  margin: 2px;
+  padding: 3px;
+}
+
+article {
+  margin: 1px;
+  padding: 2px;
+}
+
+ul,
+li {
+  margin: 2px;
+  padding: 3px;
+}
+
+table {
+  margin: 10px;
+  border: solid 0.5px;
+  padding: 0.5px;
+}
+
+caption {
+  margin: 2px;
+  padding: 3px;
+}
+
+td,
+th {
+  border: solid 1px;
+  padding: 3px;
+}
