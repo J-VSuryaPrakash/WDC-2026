@@ -1,4 +1,4 @@
-# Venkata Surya Prakash – Resume (HTML, CSS)
+# Dev Tool Landing Page (HTML, CSS)
 
 This repository contains a **landing page** of **Cursor** built using plain HTML and CSS.
 
@@ -67,6 +67,8 @@ cd '.\Dev Tool Landing Page\'
 
 Open index.html in a web browser
 or run it using Live Server (VS Code extension).
+
+Here is the live demo link: [Cursor Landing Page](https://celadon-lolly-f20d8d.netlify.app/)
 
 ## 📸 Screenshot
 
