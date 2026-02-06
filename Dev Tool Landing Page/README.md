@@ -11,18 +11,18 @@ The focus is on clean structure, spacing.
 
 The page containes the following sections:
 
-- Header
-- Main
-    |- Hero Section
-    |- Trusted By 
-    |- Features Section
-    |- Testimonials
-    |- Use Cases
-    |- Updates
-    |- Team
-    |- Highlights
-    |- Final CTA
-- Footer
+- **Header**
+- **Main**
+  - Hero Section
+  - Trusted By
+  - Features
+  - Testimonials
+  - Use Cases
+  - Updates
+  - Team
+  - Highlights
+  - Final Call to Action (CTA)
+- **Footer**
 ---
 
 ## 📁 Project Structure
