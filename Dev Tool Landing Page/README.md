@@ -72,5 +72,5 @@ or run it using Live Server (VS Code extension).
 
 Screenshot of the rendered HTML resume in the browser.
 
-![Resume Screenshot](assets\screenshot_of_cursor_landing_page.png)
+![Resume Screenshot](./assets/screenshot_of_cursor_landing_page.png)
 
