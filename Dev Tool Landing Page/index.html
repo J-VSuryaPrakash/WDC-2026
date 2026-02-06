@@ -34,21 +34,26 @@
   </header>
 
   <main>
+    
     <!-- Hero section -->
-    <section class="herosectioncontainer">
+    
+    <section class="container">
       <div class="herosection">
-        <div class="herosection-headline">
-          <h1>
-            Built to make you extraordinarily productive,<br />
-            Cursor is the best way to code with AI.
-          </h1>
-        </div>
-        <div class="herosection-CTA-container">
-          <div class="herosection-CTA">
-            <p>Download for Windows</p>
-            <span>⤓</span>
+        <div class="herosection-content">
+          <div class="herosection-headline">
+            <h1>
+              Built to make you extraordinarily productive,<br />
+              Cursor is the best way to code with AI.
+            </h1>
+          </div>
+          <div class="herosection-CTA-container">
+            <div class="herosection-CTA">
+              <p>Download for Windows</p>
+              <span>⤓</span>
+            </div>
           </div>
         </div>
+
         <div>
           <picture>
             <img src="assets/herosection_image.webp" alt="Hero Section Image" />
@@ -56,8 +61,10 @@
         </div>
       </div>
     </section>
+    
     <!-- Trusted By / Logos -->
-    <section>
+    
+    <section class="container">
       <div class="trusted-by-container">
 
         <div>
@@ -134,59 +141,72 @@
 
       </div>
     </section>
+    
     <!-- Feature Sections -->
-    <section class="feature-container">
-      <div class="feature">
-        <div class="feature-element">
-          <div class="feature-element-text">
-            <h3>Agent turns ideas into code</h3>
-            <p>
-              A human-AI programmer, orders of magnitude more effective than any
-              developer alone
-            </p>
-            <span>Learn about Agent → </span>
-          </div>
-        </div>
-        <div class="feature-element">
-          <picture><img src="assets/feature_section_img_1.webp" alt="" /></picture>
-        </div>
-      </div>
 
-      <div class="feature" style="flex-direction: row-reverse;">
-        <div class="feature-element">
-          <div class="feature-element-text">
-            <h3>Magically accurate autocomplete</h3>
-            <p>Our custom Tab model predicts your next action with striking speed
-              and precision</p>
-            <span>Learn about Tab → </span>
-          </div>
-        </div>
-        <div class="feature-element">
-          <picture><img src="assets/feature_section_img_2.webp" alt="" /></picture>
-        </div>
-      </div>
-      </div>
+    <section class="container">
 
-      <div class="feature">
-        <div class="feature-element">
-          <div class="feature-element-text">
-            <h3>Everywhere software gets built</h3>
-            <p>
-              Cursor is in github reviewing your PRs, a teammate in Slack, and
-              anywhere else you work
-            </p>
-            <span>Learn about Cursor's ecosystem →</span>
+      <div class="feature-container">
+        <div class="feature">
+          <div class="feature-element">
+            <div class="feature-element-text">
+              <h3>Agent turns ideas into code</h3>
+              <p>
+                A human-AI programmer, orders of magnitude more effective than any
+                developer alone
+              </p>
+              <span>Learn about Agent → </span>
+            </div>
+          </div>
+          <div class="feature-element">
+            <picture>
+              <img src="assets/feature_section_img_1.webp" alt="Feature Section Image 1" />
+            </picture>
           </div>
         </div>
-        <div class="feature-element">
-          <picture><img src="assets/feature_section_img_3.webp" alt="" /></picture>
+
+        <div class="feature" style="flex-direction: row-reverse;">
+          <div class="feature-element">
+            <div class="feature-element-text">
+              <h3>Magically accurate autocomplete</h3>
+              <p>
+                Our custom Tab model predicts your next action with striking speed
+                and precision
+              </p>
+              <span>Learn about Tab → </span>
+            </div>
+          </div>
+          <div class="feature-element">
+            <picture>
+              <img src="assets/feature_section_img_2.webp" alt="Feature Section Image 2" />
+            </picture>
+          </div>
         </div>
-      </div>
+
+        <div class="feature">
+          <div class="feature-element">
+            <div class="feature-element-text">
+              <h3>Everywhere software gets built</h3>
+              <p>
+                Cursor is in github reviewing your PRs, a teammate in Slack, and
+                anywhere else you work
+              </p>
+              <span>Learn about Cursor's ecosystem →</span>
+            </div>
+          </div>
+          <div class="feature-element">
+            <picture>
+              <img src="assets/feature_section_img_3.webp" alt="Feature Section Image 3" />
+            </picture>
+          </div>
+        </div>
       </div>
 
     </section>
+
     <!-- Testimonials -->
-    <section>
+   
+    <section class="container">
       <div class="testimonials-container">
         <div class="testimonial-heading">
           <h2>The new way to build software.</h2>
@@ -320,16 +340,21 @@
         </div>
       </div>
     </section>
+
     <!-- Use Cases / Stories -->
-    <section>
-      <div>
-        <div>
+    
+    <section class="container">
+      <div class="stories-container">
+
+        <div class="story-header">
           <h2>Stay on the frontier</h2>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div class="stories">
+
+          <div class="story">
+
+            <div class="story-text">
               <h3>Access the best models</h3>
               <p>
                 Choose between every cutting-edge model from OpenAI,
@@ -337,13 +362,16 @@
               </p>
               <span>Explore models ↗</span>
             </div>
-            <div>
-              <img src="" alt="" />
-            </div>
+
+            <figure> <img src="assets/story_img_1.webp" alt="Story Image 1" />
+            </figure>
+
+
           </div>
 
-          <div>
-            <div>
+          <div class="story">
+
+            <div class="story-text">
               <h3>Complete codebase understanding</h3>
               <p>
                 Cursor learns how your codebase works, no matter the scale or
@@ -351,103 +379,115 @@
               </p>
               <span>Learn about semantic search ↗</span>
             </div>
-            <div>
-              <img src="" alt="" />
-            </div>
+            <figure> <img src="assets/story_img_2.webp" alt="Stroy Image 2" />
+            </figure>
+
           </div>
-          <div>
-            <h3>Develop enduring software</h3>
-            <p>
-              Trusted by over half of the Fortune 500 to accelerate
-              development, securely and at scale
-            </p>
-            <span>Explore enterprise ↗</span>
+          <div class="story">
+            <div class="story-text">
+              <h3>Develop enduring software</h3>
+              <p>
+                Trusted by over half of the Fortune 500 to accelerate
+                development, securely and at scale
+              </p>
+              <span>Explore enterprise ↗</span>
+            </div>
+
+            <figure> <img src="assets/story_img_3.webp" alt="Story Image 3" /></figure>
+
           </div>
 
-          <div>
-            <img src="" alt="" />
-          </div>
         </div>
-      </div>
+
     </section>
 
     <!-- Changelog / Updates -->
-    <section>
-      <div>
+    
+    <section class="container">
+      <div class="updates-container">
         <div>
           <h2>Changelog</h2>
         </div>
 
-        <div>
-          <div>
-            <div></div>
-            <div>
+        <div class="updates-grid">
+          <div class="update">
+            <div class="update-head">
+              <p><span>2.4</span><time>Jan 22, 2026</time></p>
+            </div>
+            <div class="update-content">
               <h3>Subagents, Skills, and Image Generation</h3>
             </div>
           </div>
 
-          <div>
-            <div></div>
-            <div>
+          <div class="update">
+            <div class="update-head"><time>Jan 16, 2026</time></div>
+            <div class="update-content">
               <h3>CLI Agent Modes and Cloud Handoff</h3>
             </div>
           </div>
 
-          <div>
-            <div></div>
-            <div>
+          <div class="update">
+            <div class="update-head"><time>Jan 8, 2026</time></div>
+            <div class="update-content">
               <h3>New CLI Features and Improved CLI Performance</h3>
             </div>
           </div>
 
-          <div>
-            <div></div>
-            <div>
+          <div class="update">
+            <div class="update-head">
+              <p><span>2.3</span><time>Dec 22, 2025</time></p>
+            </div>
+            <div class="update-content">
               <h3>Layout Customization and Stability Improvements</h3>
             </div>
           </div>
         </div>
 
-        <div><span>See what's new in Cursor →</span></div>
+        <div class="update-footer"><span>See what's new in Cursor →</span></div>
       </div>
     </section>
 
     <!-- Team / About -->
-    <section>
-      <div>
-        <div>
-          <div>
+    <section class="container">
+      <div class="team-container">
+
+        <div class="team">
+
+          <div class="team-header">
             <h2>
-              Cursor is and applied team focused on building the future of
-              coding
+              Cursor is an applied research team focused on building the future of software development.
             </h2>
           </div>
-          <div>
+
+          <div class="join-team">
             <a href="">
               Join us
-              <div><span>→</span></div>
+              <span>→</span>
             </a>
           </div>
+
         </div>
 
-        <div>
+        <div class="team-image">
           <picture>
             <img src="assets/team.webp" alt="Team image" />
           </picture>
         </div>
+
       </div>
     </section>
 
     <!-- Recent Highlights -->
-    <section>
-      <div>
-        <div>
+
+    <section class="highlights">
+      <div class="highlight-container">
+        <div class="highlight-header">
           <h3>Recent highlights</h3>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div class="highlight-cards">
+          <div class="highlight">
+            <div class="highlight-text ">
               <p>Introducing Cursor 2.0 and Composer</p>
               <p>
                 A new interface and our first coding model, both purpose-built
@@ -459,8 +499,8 @@
             </div>
           </div>
 
-          <div>
-            <div>
+          <div class="highlight">
+            <div class="highlight-text">
               <p>Improving Cursor Tab with online RL</p>
               <p>
                 Our new Tab model makes 21% fewer suggestions while having 28%
@@ -468,12 +508,12 @@
               </p>
             </div>
             <div>
-              <span>Research<time>Sep 12, 2025</time></span>
+              <span>Research <time>Sep 12, 2025</time></span>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div class="highlight">
+            <div class="highlight-text ">
               <p>1.5x faster MoE training with custom MXFP8 kernels</p>
               <p>
                 Achieving a 3.5x MoE layer speedup with a complete rebuild for
@@ -488,13 +528,97 @@
             </div>
           </div>
 
-          <div>
+          <div class="highlight-footer">
             <a> View more posts <span>→</span> </a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Final CTA -->
+
+    <section>
+      <div class="final-CTA-container">
+        <div class="final-CTA-text">
+          <h2>Try Cursor now</h2>
+        </div>
+        <div class="final-CTA-div">
+          <div class="final-CTA">
+            <p>Download for Windows</p>
+            <span>⤓</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  
   </main>
+
+  <!-- footer -->
+  <footer>
+
+    <div class="footer-cards">
+
+      <div class="footer-card">
+        <h3>Product</h3>
+        <ul>
+          <li>Agents</li>
+          <li>Enterprise</li>
+          <li>Code Review</li>
+          <li>Tab</li>
+          <li>CLI</li>
+          <li>Cloud Agents</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+
+      <div class="footer-card">
+        <h3>Resources</h3>
+        <ul>
+          <li>Download</li>
+          <li>Changelog</li>
+          <li>Docs</li>
+          <li>Forum
+          </li>
+          <li>Status
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-card">
+        <h3>Company</h3>
+        <ul>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>Community</li>
+          <li>Students</li>
+          <li>Brand</li>
+          <li>Anysphere
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-card">
+        <h3>Legal</h3>
+        <ul>
+          <li>Terms of Service</li>
+          <li>Privacy Policy</li>
+          <li>Data Use</li>
+          <li>Security</li>
+        </ul>
+      </div>
+
+      <div class="footer-card">
+        <h3>Connect</h3>
+        <ul>
+          <li>X </li>
+          <li>LinkedIn </li>
+          <li>YouTube </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
 </body>
 
 </html>

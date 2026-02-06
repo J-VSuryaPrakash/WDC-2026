@@ -6,16 +6,24 @@
 
 body {
   background-color: #14120b;
-  width: 85%;
+  width: 100vw;
   margin: 0 auto;
   color: #ffff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Yu Gothic", "Yu Gothic UI", "Hiragino Kaku Gothic ProN", "Meiryo", "Segoe UI";
+}
+
+header {
+  background-color: #14120b;
+  position: sticky;
+  top: 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 85%;
+  margin: auto;
 }
 
 nav a {
@@ -58,11 +66,9 @@ nav a {
   font-weight: 300;
 }
 
-.herosectioncontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: auto;
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
 
 .herosection-CTA-container {
@@ -73,7 +79,7 @@ nav a {
   background-color: #fff;
   color: #14120b;
   border-radius: 20px;
-  padding: 5px 8px;
+  padding: 10px 8px;
 }
 
 .herosection-CTA {
@@ -81,7 +87,7 @@ nav a {
   justify-content: space-around;
   align-items: center;
   font-size: medium;
-  font-weight: 450;
+  font-weight: 500;
 }
 
 .herosection-CTA p {
@@ -94,7 +100,28 @@ nav a {
   padding-left: 2px;
 }
 
-.herosectioncontainer img {
+.herosection {
+  padding: 60px 0px;
+}
+
+.herosection-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.herosection-headline {
+  padding: 14px 0px;
+}
+
+.herosection-headline h1 {
+  color: #edecec;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.herosection img {
   width: 100%;
   height: auto;
   display: block;
@@ -130,9 +157,8 @@ nav a {
   width: auto;
 }
 
-.feature-container {
-  width: 100%;
-  height: auto;
+.feature-container{
+  padding: 50px 0px;
 }
 
 .feature {
@@ -140,7 +166,7 @@ nav a {
   display: flex;
   padding: 20px;
   border-radius: 5px;
-  margin: 50px auto;
+  margin: 80px auto;
 }
 
 .feature-element {
@@ -183,8 +209,7 @@ nav a {
 
 .testimonials-container {
   display: grid;
-  grid-template-rows: repeat(2, 100px);
-  height: 600px;
+  grid-template-rows: 20% 80%;
 }
 
 .testimonial-heading {
@@ -197,7 +222,7 @@ nav a {
 .testimonial-heading h2 {
   font-size: 34px;
   font-weight: 500;
-  color: #cccccc
+  color: #cccccc;
 }
 
 .testimonial-grid {
@@ -205,7 +230,7 @@ nav a {
   grid-template-rows: repeat(2, 2fr);
   grid-template-columns: repeat(3, 3fr);
   gap: 10px;
-  height: 490px;
+  padding: 30px 0px;
 }
 
 .testimonial {
@@ -244,4 +269,252 @@ nav a {
 .testimoni figure img {
   border-radius: 5px;
   object-fit: contain;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+
+.stories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.story {
+  background-color: #1b1913;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.story-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.story-header h2 {
+  color: #fff;
+  font-size: xx-large;
+  font-weight: 450;
+}
+
+.story img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.story-text {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  font-weight: 450;
+}
+
+.story-text p {
+  color: #999896;
+}
+
+.story-text span {
+  color: #ff0000;
+  padding: 10px 0px;
+}
+
+.updates-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.updates-container h2{
+  padding: 15px 0px;
+}
+
+.updates-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.update {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1b1913;
+  padding: 15px;
+  height: 121px;
+}
+
+.update-head p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #999896;
+  font-size: medium;
+  font-weight: 500;
+  height: 24px;
+}
+
+.update-head span {
+  border: solid 1px #999896;
+  padding: 0.5px 10px;
+  border-radius: 15px;
+}
+
+.update-content h3{
+  font-weight: 500;
+}
+
+.update-footer {
+  color: #ff0000;
+  padding: 20px 0px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  background-color: #1b1913;
+  padding: 18px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.join-team {
+  padding: 10px 0px;
+}
+
+.join-team a {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.team-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.team-header {
+  padding: 10px 0px;
+}
+
+.team-header h2 {
+  font-size: x-l;
+  font-weight: 450;
+}
+
+.highlights{
+  padding: 200px 0px 100px 0px;
+}
+
+.highlight-container {
+  display: grid;
+  background-color: #1b1913;
+  grid-template-columns: 20% 60% 20%;
+  padding: 20px;
+}
+
+.highlight-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #22201a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.highlight-header h3 {
+  color: #cccccc;
+  font-weight: 500;
+}
+
+.highlight-text p:last-child {
+  color: #999896;
+}
+
+.highlight span {
+  color: #999896;
+}
+
+.highlight-footer {
+  color: #ff0000;
+  padding: 10px 0px;
+}
+
+.final-CTA-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 100px 0px;
+}
+
+.final-CTA-text h2 {
+  font-size: 70px;
+  font-weight: 450;
+}
+
+.final-CTA-div {
+  width: 229px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  color: #14120b;
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+
+.final-CTA {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: medium;
+  font-weight: 450;
+}
+
+footer {
+  background-color: #1b1913;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-card h3 {
+  color: #999896;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.footer-card {
+  width: 252px;
+}
+
+.footer-card ul li {
+  list-style: none;
+  padding: 5px 0px;
+  font-size: medium;
+  font-weight: 400;
 }
