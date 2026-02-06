@@ -6,10 +6,12 @@
 
 body {
   background-color: #14120b;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   color: #ffff;
-  font-family: "Yu Gothic", "Yu Gothic UI", "Hiragino Kaku Gothic ProN", "Meiryo", "Segoe UI";
+  font-family:
+    "Yu Gothic", "Yu Gothic UI", "Hiragino Kaku Gothic ProN", "Meiryo",
+    "Segoe UI";
 }
 
 header {
@@ -29,6 +31,17 @@ nav {
 nav a {
   text-decoration: none;
   color: #ffff;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home img{
+  height: 24px;
+  width: 96px;
 }
 
 .navigation {
@@ -136,6 +149,10 @@ nav a {
   font-weight: 100;
 }
 
+.trusted-by-container div h2{
+  font-size: 14px;
+}
+
 .trusted-by-logo-container {
   display: grid;
   grid-template-columns: repeat(8, 150px);
@@ -157,7 +174,7 @@ nav a {
   width: auto;
 }
 
-.feature-container{
+.feature-container {
   padding: 50px 0px;
 }
 
@@ -245,17 +262,23 @@ nav a {
 .testimonial-message {
   font-size: medium;
   font-weight: 450;
+  padding: 0px 0px 40px 0px;
+}
+
+.testimoni {
+  height: 42px;
+  width: 392px;
 }
 
 .testimoni figure {
   display: flex;
   justify-content: flex-start;
-  height: 42px;
-  width: 392px;
+  width: 100%;
+  height: 100%;
 }
 
 .testimoni figure figcaption {
-  width: 196px;
+  width: 100%;
   padding-left: 10px;
   text-align: left;
   font-size: smaller;
@@ -294,6 +317,7 @@ nav a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 80px 0px 5px 0px;
 }
 
 .story-header h2 {
@@ -331,7 +355,7 @@ nav a {
   padding: 50px 0px;
 }
 
-.updates-container h2{
+.updates-container h2 {
   padding: 15px 0px;
 }
 
@@ -364,9 +388,16 @@ nav a {
   border: solid 1px #999896;
   padding: 0.5px 10px;
   border-radius: 15px;
+  margin: 0 10px 0 0;
 }
 
-.update-content h3{
+.update-head time {
+  color: #999896;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.update-content h3 {
   font-weight: 500;
 }
 
@@ -380,6 +411,7 @@ nav a {
   grid-template-columns: 35% 65%;
   background-color: #1b1913;
   padding: 18px;
+  margin: 26px auto;
 }
 
 .team {
@@ -415,15 +447,21 @@ nav a {
   font-weight: 450;
 }
 
-.highlights{
+.highlights {
   padding: 200px 0px 100px 0px;
+}
+
+.highlights-content {
+  background-color: #1b1913;
+  padding: 60px 0px;
 }
 
 .highlight-container {
   display: grid;
-  background-color: #1b1913;
   grid-template-columns: 20% 60% 20%;
-  padding: 20px;
+  padding: 20px 0px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .highlight-cards {
@@ -448,6 +486,10 @@ nav a {
 
 .highlight-text p:last-child {
   color: #999896;
+}
+
+.highlight-reference {
+  padding: 30px 0px 0px 0px;
 }
 
 .highlight span {
@@ -495,6 +537,12 @@ footer {
   background-color: #1b1913;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0px;
 }
 
 .footer-cards {
