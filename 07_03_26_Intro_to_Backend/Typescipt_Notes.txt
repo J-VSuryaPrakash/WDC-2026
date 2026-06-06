@@ -1,0 +1,2 @@
+run your terminal as administrator and run this command 'npm install typescript -g' this installs typescript globally.
+
